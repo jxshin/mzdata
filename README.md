@@ -22,6 +22,9 @@ to expand the multi-level and multi-extract feature to other software engineerin
 datasets.
 
 # Notes
+We recommend `Download ZIP` function instead of repository clone for downloading the dataset.
+If you have difficulties to download the big zip package, please download file by file with specified path,
+e.g., `https://raw.githubusercontent.com/jxshin/mzdata/master/data/2011/level0/activity/activity_level0.gz_aa`.
 
 The data files are compressed and split into multiple subfiles, please use `cat` to merge and
 use `gzip` to uncompress.
