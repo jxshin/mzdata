@@ -26,6 +26,13 @@ We recommend `Download ZIP` function instead of repository clone for downloading
 If you have difficulties to download the big zip package, please download file by file with specified path,
 e.g., `https://raw.githubusercontent.com/jxshin/mzdata/master/data/2011/level0/activity/activity_level0.gz_aa`.
 
+Pleas use the following links download the Mozilla official database dump only:
+Part 1:  `https://raw.githubusercontent.com/jxshin/mzdata/master/data/2013/level0/Mozilla-Bugzilla-Public-02-January-2013.sql.gz_aa`
+Part 2:  `https://raw.githubusercontent.com/jxshin/mzdata/master/data/2013/level0/Mozilla-Bugzilla-Public-02-January-2013.sql.gz_ab`
+Part 3:  `https://raw.githubusercontent.com/jxshin/mzdata/master/data/2013/level0/Mozilla-Bugzilla-Public-02-January-2013.sql.gz_ac'
+... ...
+Part 38: `https://raw.githubusercontent.com/jxshin/mzdata/master/data/2013/level0/Mozilla-Bugzilla-Public-02-January-2013.sql.gz_bl`
+
 The data files are compressed and split into multiple subfiles, please use `cat` to merge and
 use `gzip` to uncompress.
 For example:
@@ -33,3 +40,6 @@ For example:
 $ cat data/2011/level1/information/info_level1.gz_* > info_level1.gz
 $ gzip -d info_level1.gz
 ``` 
+
+
+
