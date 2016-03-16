@@ -26,8 +26,8 @@ We recommend `Download ZIP` function instead of repository clone for downloading
 If you have difficulties to download the big zip package, please download file by file with specified path,
 e.g., `https://raw.githubusercontent.com/jxshin/mzdata/master/data/2011/level0/activity/activity_level0.gz_aa`
 
-Pleas use the shell script [mzd_download](https://raw.githubusercontent.com/jxshin/mzd/master/mz_download.sh) (copy it to the target folder and run)  
-or the following links to download the Mozilla official database dump:
+Please use the shell script [mzd_download](https://raw.githubusercontent.com/jxshin/mzd/master/mz_download.sh) (copy it to the target folder and run)  
+or the following links to download the **Mozilla official database dump**:
 
 * Part 1: `https://raw.githubusercontent.com/jxshin/mzdata/master/data/2013/level0/Mozilla-Bugzilla-Public-02-January-2013.sql.gz_aa`
 * Part 2: `https://raw.githubusercontent.com/jxshin/mzdata/master/data/2013/level0/Mozilla-Bugzilla-Public-02-January-2013.sql.gz_ab`
